@@ -2,6 +2,7 @@ import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import LotteryWebApp from "@/public/LotteryWebApp.png";
 import reliableImg from "@/public/reliable-transfer.png";
+import translateImg from "@/public/translate.png";
 
 
 
@@ -73,11 +74,11 @@ export const projectsData = [
     
   },
   {
-    title: "Next",
+    title: "TranslatorApp",
     description:
-      "",
-    tags: [],
-    imageUrl: reliableImg,
+      "This is a very basic translator app using Google Translate API",
+    tags: ["React", "JavaScript", "HTML", "CSS", "RESTful API"],
+    imageUrl: translateImg,
     sourceCode: "h",
     liveSite: false
   },
