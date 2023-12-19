@@ -3,6 +3,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import LotteryWebApp from "@/public/LotteryWebApp.png";
 import reliableImg from "@/public/reliable-transfer.png";
 import translateImg from "@/public/translate.png";
+import pagerankIMG from "@/public/page-rank.png"
 
 
 
@@ -81,6 +82,15 @@ export const projectsData = [
     imageUrl: translateImg,
     sourceCode: "https://github.com/Aaron-Cunningham/Translator-webapp",
     liveSite: "https://translator-webapp.vercel.app/"
+  },
+  {
+    title: "Page-Rank-Algorithm",
+    description:
+        "This is a simple implementation of the page rank algorithm using the distribution and stochastic methods",
+    tags: ["python", "NetworkX", ],
+    imageUrl: pagerankIMG,
+    sourceCode: "https://github.com/Aaron-Cunningham/Page-Rank-Algorithm",
+    liveSite: false
   },
 ] as const;
 
