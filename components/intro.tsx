@@ -8,6 +8,8 @@ import { HiDownload } from "react-icons/hi"
 import { FaGithub, FaGithubSquare } from 'react-icons/fa';
 import { useSectionInView } from '@/app/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
+import aaronPhoto from '@/public/me.png';
+
 
 export default function Intro() {
   const {ref} = useSectionInView('Home', 0.5)
@@ -25,12 +27,12 @@ export default function Intro() {
             type: "tween",
             duration: 0.2
         }}>          
-        <Image src="/me.png" alt="Aaron photo" 
+        <Image src={aaronPhoto} alt="Aaron photo"
           width="192"
           height="192"
           quality="95"
           priority={true}
-          className='h-40 w-40 rounded-full object-cover border-[0.35rem] border-white shadow-xl'/>
+          className='h-40 w-40 rounded-full object-cover border-[0.35rem] border-white shadow-xl relative'/>
           </motion.div>
         </div>
       </div>
