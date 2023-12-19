@@ -61,7 +61,7 @@ export const projectsData = [
     tags: ["Python", "Flask", "MYSQL", "JavaScript", "HTML"],
     imageUrl: LotteryWebApp,
     sourceCode: "https://github.com/Aaron-Cunningham/LotteryWebApp",
-    liveSite: "https://www.google.com/"
+    liveSite: false
   },
   {
     title: "Reliable-File-Transfer-Protocol-UDP",
