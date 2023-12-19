@@ -69,6 +69,7 @@ export const projectsData = [
     tags: ["Java", "Socket Programming", "Object Serialization", "Error simulation"],
     imageUrl: reliableImg,
     sourceCode: "https://github.com/Aaron-Cunningham/Reliable-File-Transfer-Protocol-UDP",
+    liveSite: false
     
   },
   {
@@ -78,6 +79,7 @@ export const projectsData = [
     tags: [],
     imageUrl: reliableImg,
     sourceCode: "h",
+    liveSite: false
   },
 ] as const;
 
