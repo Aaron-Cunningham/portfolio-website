@@ -80,7 +80,7 @@ export const projectsData = [
     tags: ["React", "JavaScript", "HTML", "CSS", "RESTful API"],
     imageUrl: translateImg,
     sourceCode: "h",
-    liveSite: false
+    liveSite: "https://translator-webapp.vercel.app/"
   },
 ] as const;
 
