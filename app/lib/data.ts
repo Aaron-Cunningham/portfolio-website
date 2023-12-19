@@ -79,7 +79,7 @@ export const projectsData = [
       "This is a very basic translator app using Google Translate API",
     tags: ["React", "JavaScript", "HTML", "CSS", "RESTful API"],
     imageUrl: translateImg,
-    sourceCode: "h",
+    sourceCode: "https://github.com/Aaron-Cunningham/Translator-webapp",
     liveSite: "https://translator-webapp.vercel.app/"
   },
 ] as const;
