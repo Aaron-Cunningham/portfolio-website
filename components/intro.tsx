@@ -27,7 +27,7 @@ export default function Intro() {
             type: "tween",
             duration: 0.2
         }}>          
-        <Image src={aaronPhoto} alt="Aaron photo"
+        <Image src="https://gcdnb.pbrd.co/images/tkCanuE9KPb6.jpg?o=1" alt="Aaron photo"
           width="192"
           height="192"
           quality="95"
