@@ -59,11 +59,11 @@ export const projectsData = [
   {
     title: "ee Car rental website",
     description:
-        "This app is still a work in progess (last update 03/01/2024). The app will have a modern design, with multiple choices of car rentals.",
+        "This app is still a work in progess (last update 05/01/2024). The app will have a modern design, with multiple choices of car rentals.",
     tags: ["React", "CSS", "HTML", "JavaScript"],
     imageUrl: CarRentalIMG,
     sourceCode: "https://github.com/Aaron-Cunningham/car-rental-website",
-    liveSite: 'https://car-rental-website-nub3sdjhu-aarons-projects-ff0f85f5.vercel.app/'
+    liveSite: 'https://car-rental-website-nine.vercel.app/'
   },
   {
     title: "LotteryWebApp",
