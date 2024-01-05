@@ -59,7 +59,7 @@ export const projectsData = [
   {
     title: "ee Car rental website",
     description:
-        "This app is still a work in progess (last update 05/01/2024). The app will have a modern design, with multiple choices of car rentals.",
+        "This app is still a work in progress (last update 05/01/2024). The app will have a modern design, with multiple choices of car rentals.",
     tags: ["React", "CSS", "HTML", "JavaScript"],
     imageUrl: CarRentalIMG,
     sourceCode: "https://github.com/Aaron-Cunningham/car-rental-website",
