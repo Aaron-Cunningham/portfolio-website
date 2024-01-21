@@ -57,7 +57,7 @@ export const projectsData = [
   {
     title: "AirBnb Clone (Frontend)",
     description:
-        "This app is still a work in progress (last update 05/01/2024). The app will have a modern design, with multiple choices of car rentals.",
+        "This app is a frontend project that focuses on the beautiful design and layout of AirBnb, it has a search function with react-date-range, and results page with implemented Map-GL ",
     tags: ["Next.js", "Tailwind", "TypeScript", "JavaScript", "Map-GL", "GeoLib", "React-date-range"],
     imageUrl: AirBnbIMG,
     sourceCode: "https://github.com/Aaron-Cunningham/AirBnbClone",
