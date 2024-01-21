@@ -1,8 +1,8 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
-import LotteryWebApp from "../../../../Desktop/portfolio/public/LotteryWebApp.png";
-import translateImg from "../../../../Desktop/portfolio/public/translate.png";
-import AirBnbIMG from "../../../../Desktop/portfolio/public/airbnb.png"
+import LotteryWebApp from "@/public/LotteryWebApp.png";
+import translateImg from "@/public/translate.png";
+import AirBnbIMG from "@/public/airbnb.png"
 
 
 
