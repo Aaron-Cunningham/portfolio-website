@@ -4,7 +4,7 @@ import LotteryWebApp from "@/public/LotteryWebApp.png";
 import reliableImg from "@/public/reliable-transfer.png";
 import translateImg from "@/public/translate.png";
 import pagerankIMG from "@/public/page-rank.png"
-import CarRentalIMG from "@/public/car-rental.png"
+import AirBnbIMG from "@/public/airbnb.png.png"
 
 
 
@@ -57,13 +57,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "ee Car rental website",
+    title: "AirBnb Clone (Frontend)",
     description:
         "This app is still a work in progress (last update 05/01/2024). The app will have a modern design, with multiple choices of car rentals.",
-    tags: ["React", "CSS", "HTML", "JavaScript"],
-    imageUrl: CarRentalIMG,
-    sourceCode: "https://github.com/Aaron-Cunningham/car-rental-website",
-    liveSite: 'https://car-rental-website-nine.vercel.app/'
+    tags: ["Next.js", "Tailwind", "TypeScript", "JavaScript", "Map-GL", "GeoLib", "React-date-range"],
+    imageUrl: AirBnbIMG,
+    sourceCode: "https://github.com/Aaron-Cunningham/AirBnbClone",
+    liveSite: 'https://air-bnb-topaz.vercel.app/'
   },
   {
     title: "LotteryWebApp",
@@ -75,16 +75,6 @@ export const projectsData = [
     liveSite: false
   },
   {
-    title: "Reliable-File-Transfer-Protocol-UDP",
-    description:
-      "This program implements a Reliable File Transfer (RFT) protocol using the PAR protocol on top of UDP. The RFT protocol ensures reliable delivery of a file between a client and a server.",
-    tags: ["Java", "Socket Programming", "Object Serialization", "Error simulation"],
-    imageUrl: reliableImg,
-    sourceCode: "https://github.com/Aaron-Cunningham/Reliable-File-Transfer-Protocol-UDP",
-    liveSite: false
-    
-  },
-  {
     title: "TranslatorApp",
     description:
       "This is a very basic translator app using Google Translate API",
@@ -92,15 +82,6 @@ export const projectsData = [
     imageUrl: translateImg,
     sourceCode: "https://github.com/Aaron-Cunningham/Translator-webapp",
     liveSite: "https://translator-webapp.vercel.app/"
-  },
-  {
-    title: "Page-Rank-Algorithm",
-    description:
-        "This is a simple implementation of the page rank algorithm using the distribution and stochastic methods",
-    tags: ["python", "NetworkX", ],
-    imageUrl: pagerankIMG,
-    sourceCode: "https://github.com/Aaron-Cunningham/Page-Rank-Algorithm",
-    liveSite: false
   },
 ] as const;
 
