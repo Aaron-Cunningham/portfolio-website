@@ -37,11 +37,11 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.h1 className='relative mb-10 mt-4  px- text-2x1 font-medium !leading-[1.5] sm:text-4x1'
+      <motion.h1 className='relative mb-10 mt-4  px- text-2x1 font-medium !leading-[1.5] sm:text-4x1 '
       initial={{ opacity: 0, y: 100}}
       animate={{ opacity: 1, y:0 }}
-      ><strong>Hello, I am Aaron.</strong>  I am a <strong>Front-End</strong> developer and full-time <strong>Computer Science student </strong> at <strong>Newcastle University
-        </strong> with <strong>3 years</strong> coding experience. I enjoy using and trying new technologies and I am currently focusing on <strong><i>React.js</i></strong></motion.h1>
+      ><strong>Hello, I am Aaron.</strong>  I am a <strong>Software</strong> developer and full-time <strong>Computer Science student </strong> at <strong>Newcastle University
+        </strong> with <strong>3 years</strong> coding experience.</motion.h1>
         
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium relative'
             initial={{ opacity: 0, y: 100}}

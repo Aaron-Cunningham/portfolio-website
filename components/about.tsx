@@ -21,7 +21,6 @@ export default function About() {
         After <strong>5 successful</strong> years in the <strong>Military</strong>, I decided I wanted to pursue a career in tech as it&apos;s always been a passion of mine.
         After completing my Computing course at college, I was able to get an offer from my first choice University. Since then I have been taught many different topics such as
         <i><strong> Networks</strong>, <strong>Web security</strong>, <strong>Algorithms</strong>, <strong>OOP, </strong></i> and <i><strong>IPC. </strong></i>
-        In my free time, I&apos;m improving my <i><strong>React.js, HTML, and CSS </strong></i> skill set.
     </p>
 
         <p>

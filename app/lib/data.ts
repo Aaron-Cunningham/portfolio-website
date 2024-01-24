@@ -75,11 +75,11 @@ export const projectsData = [
   {
     title: "TranslatorApp",
     description:
-      "This is a very basic translator app using Google Translate API",
-    tags: ["React", "JavaScript", "HTML", "CSS", "RESTful API"],
+      "•\tCollaborated with a dynamic team of 4 peers. Our collaborative efforts were supported by strong teamwork, communication, and where each member in the team played a crucial role",
+    tags: ["Java", "Hibernate", "CRUD", "MYSQL"],
     imageUrl: translateImg,
-    sourceCode: "https://github.com/Aaron-Cunningham/Translator-webapp",
-    liveSite: "https://translator-webapp.vercel.app/"
+    sourceCode: "https://github.com/Aaron-Cunningham/Quiz-App",
+    liveSite: false
   },
 ] as const;
 
