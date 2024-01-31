@@ -3,6 +3,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import LotteryWebApp from "@/public/LotteryWebApp.png";
 import translateImg from "@/public/translate.png";
 import AirBnbIMG from "@/public/airbnb.png"
+import EE from "@/public/ee.png"
 
 
 
@@ -54,6 +55,15 @@ export const experiencesData = [
 
 
 export const projectsData = [
+  {
+    title: "EE Car rental (Under Development)",
+    description:
+        "This app is a frontend project built using HTML, CSS, and JavaScript. Although still under development, it is a Car rental website built in React.",
+    tags: ["CSS", "HTML", "JavaScript"],
+    imageUrl: EE,
+    sourceCode: "https://github.com/Aaron-Cunningham/car-rental",
+    liveSite: 'https://car-rental-six-iota.vercel.app/'
+  },
   {
     title: "AirBnb Clone (Frontend)",
     description:
