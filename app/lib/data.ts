@@ -82,15 +82,6 @@ export const projectsData = [
     sourceCode: "https://github.com/Aaron-Cunningham/LotteryWebApp",
     liveSite: false
   },
-  {
-    title: "TranslatorApp",
-    description:
-      "•\tCollaborated with a dynamic team of 4 peers. Our collaborative efforts were supported by strong teamwork, communication, and where each member in the team played a crucial role",
-    tags: ["Java", "Hibernate", "CRUD", "MYSQL"],
-    imageUrl: translateImg,
-    sourceCode: "https://github.com/Aaron-Cunningham/Quiz-App",
-    liveSite: false
-  },
 ] as const;
 
 export const skillsData = [
