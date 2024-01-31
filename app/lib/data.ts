@@ -74,6 +74,15 @@ export const projectsData = [
     liveSite: 'https://air-bnb-topaz.vercel.app/'
   },
   {
+    title: "MOKI (Frontend)",
+    description:
+        "This app is a frontend project represents an online clothes shop. Built in react, it has a modern and sleek design.",
+    tags: ["Tailwind", "HTML", "JavaScript"],
+    imageUrl: AirBnbIMG,
+    sourceCode: "https://github.com/Aaron-Cunningham/Clothes-Shop-Website",
+    liveSite: 'https://clothes-shop-website.vercel.app/'
+  },
+  {
     title: "LotteryWebApp",
     description:
       "This app allows users to submit numbers for a lottery draw and also allows admins to play draws. This app is very security heavy with lots of authentication, authorisation, logging, and more!",
