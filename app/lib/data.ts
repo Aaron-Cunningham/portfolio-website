@@ -4,7 +4,7 @@ import LotteryWebApp from "@/public/LotteryWebApp.png";
 import translateImg from "@/public/translate.png";
 import AirBnbIMG from "@/public/airbnb.png"
 import EE from "@/public/ee.png"
-
+import MOKI from "@/public/MOKI.png"
 
 
 export const links = [
@@ -78,7 +78,7 @@ export const projectsData = [
     description:
         "This app is a frontend project represents an online clothes shop. Built in react, it has a modern and sleek design.",
     tags: ["Tailwind", "HTML", "JavaScript"],
-    imageUrl: AirBnbIMG,
+    imageUrl: MOKI,
     sourceCode: "https://github.com/Aaron-Cunningham/Clothes-Shop-Website",
     liveSite: 'https://clothes-shop-website.vercel.app/'
   },
